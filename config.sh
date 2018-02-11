@@ -1,3 +1,5 @@
+sudo apt upgrade && sudo apt upgrade
+
 ################################################################################
 # 	      Installation de pythons et des modules nécessaires	       #
 ################################################################################
@@ -10,6 +12,8 @@ sudo pip install --upgrade pymongo requests
 ################################################################################
 # 	   		   Téléchargement des données 	  		       #
 ################################################################################
+
+sudo mkdir downloads
 
 sudo python downloadData.py
 
