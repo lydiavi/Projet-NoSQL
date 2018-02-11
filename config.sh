@@ -11,7 +11,7 @@ sudo pip install --upgrade pymongo requests
 # 	   		   Téléchargement des données 	  		       #
 ################################################################################
 
-#sudo python downloadData.py
+sudo python downloadData.py
 
 
 ################################################################################
@@ -33,7 +33,7 @@ sudo service mongod start
 # 		 Chargement des données téléchargées dans MongoDB	       #
 ################################################################################
 
-#sudo python loadData.py
+sudo python loadData.py
 
 
 ################################################################################
